@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #F1F3FF; 
+}
+
+#header .logo {
+    width: 100px;
+    height: 34px;
+}
+
+#header .nav-menu li {
+
+        margin-left: 32px;
+    }
+
+#header .nav-menu li a {
+        color: black;
+        text-decoration: none;
+} 
+
+#header .nav-menu li .register {
+    border: solid 1px black;
+    color: white;
+    background-color: #5CB85F;
+    padding: 8px 12px;
+    text-decoration: none;
+}
