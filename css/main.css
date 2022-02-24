@@ -278,3 +278,17 @@ body {
     gap: 16px; 
 
 }
+
+/*Footer*/
+
+footer .row{
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+    footer .row {
+        margin-top: 150px;
+    }
+    
+    
+}
