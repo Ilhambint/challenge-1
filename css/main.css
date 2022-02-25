@@ -251,7 +251,7 @@ body {
     width: 80px;
     height: 80px;
     padding-top: 10px;
-    padding-left: 120px;
+    padding-left: 170px;
 }
 
 .card-description {
@@ -268,7 +268,22 @@ body {
     font-size: 14px;
 }
 
+@media screen and (min-width: 768px) {
 
+    .card {
+        width: 350px;
+        height: 350px;
+
+    }
+
+    
+.card .card-img {
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 130px;
+}
+}
 
 @media screen and (min-width: 1024px) {
 
